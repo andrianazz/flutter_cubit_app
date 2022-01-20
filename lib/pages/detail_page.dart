@@ -25,7 +25,7 @@ class _DetailPageState extends State<DetailPage> {
       DetailState detail = state as DetailState;
 
       return Scaffold(
-        body: Container(
+        body: SizedBox(
           width: double.maxFinite,
           height: double.maxFinite,
           child: Stack(
